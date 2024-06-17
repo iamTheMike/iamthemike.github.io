@@ -9,9 +9,7 @@
   <title>Document</title>
 </head>
 <body>
-  
-  <div class="container">
-    <div class="header">
+   <div class="header">
       <div class="header__front header--font">
         <img src="https://cdn4.iconfinder.com/data/icons/pet-cat/77/pet-cat-002-256.png"            alt="this is           logo">
         <h1>Cat School</h1>
@@ -46,6 +44,7 @@
          <button class="btn__hover" ><a href="">Sign up</a></button>
       </div>
     </div>
+  <div class="container">
     <div class="content">
       <div class="content__adv content_adv--font">
         <img src="https://th.bing.com/th/id/R.5078f3e34171f5080bd5558b318ec5c5?rik=0r%2b695ZNhV9c2g&pid=ImgRaw&r=0" alt="">
@@ -98,39 +97,6 @@
     </div>
     <div class="footer">  
     </div>
-    <script>
-      let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n); 
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n); 
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("myslides");
-  let dots = document.getElementsByClassName("dot");
-  
-  if (n > slides.length)
-  {slideIndex = 1;} 
-  if (n < 1)
-  {slideIndex = slides.length;}
-  
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-  
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", ""); 
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active "; 
-}
-    </script>
 </div>
 </body>
 </html>
