@@ -3,13 +3,10 @@ body{
   font-family: Papyrus;
 }
 .container{
-  /* display: block; */
-  /* flex-direction: column; */
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1'   xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440'     height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(248%2c 237%2c 212%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c35 C 57.6%2c79.6 172.8%2c251 288%2c258 C 403.2%2c265 460.8%2c84.4 576%2c70 C 691.2%2c55.6 748.8%2c191.2 864%2c186 C 979.2%2c180.8 1036.8%2c29.6 1152%2c44 C 1267.2%2c58.4 1382.4%2c215.2 1440%2c258L1440 560L0 560z' fill='rgba(255%2c 212%2c 115%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c348 C 96%2c385.8 288%2c545 480%2c537 C 672%2c529 768%2c322.2 960%2c308 C 1152%2c293.8 1344%2c434.4 1440%2c466L1440 560L0 560z' fill='rgba(255%2c 234%2c 188%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1'   xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440'     height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(248%2c 237%2c 212%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c35 C 57.6%2c79.6 172.8%2c251 288%2c258 C 403.2%2c265 460.8%2c84.4 576%2c70 C 691.2%2c55.6 748.8%2c191.2 864%2c186 C 979.2%2c180.8 1036.8%2c29.6 1152%2c44 C 1267.2%2c58.4 1382.4%2c215.2 1440%2c258L1440 560L0 560z' fill='rgba(255%2c 212%2c 115%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c348 C 96%2c385.8 288%2c545 480%2c537 C 672%2c529 768%2c322.2 960%2c308 C 1152%2c293.8 1344%2c434.4 1440%2c466L1440 560L0 560z' fill='rgba(255%2c 234%2c 188%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .header{
   padding-right:100px;
   padding-left:100px;
@@ -18,8 +15,9 @@ body{
   border-bottom: 5px solid #ccc;;
   justify-content: space-between;
   align-items: center;
-  background-color:  #FFEABC;}
-
+  background-color:  #FFEABC;
+  
+}
 .header__front{
   display:flex;
   justify-content: center;
@@ -38,7 +36,6 @@ h1{
   font-weight: 900;
   font-family: Papyrus;
 }
-
 .header__middle{
   display:flex;
   justify-content: space-between;
@@ -70,7 +67,7 @@ h1{
 .header__rear button {
   border : 1px solid #ccc;
   border-radius: 70px;
-  background-color: #f8edd4;
+  background-color: #FFEABC;
   height: 50px;
   width: 150px;
   cursor: pointer;
@@ -79,11 +76,9 @@ h1{
   font-size: 20px;
   font-weight: bold;
 }
-
-
 /* Style The Dropdown Button */
 .dropbtn {
-  background-color:#f8edd4;
+  background-color: #FFEABC;
   border: none;
   cursor: pointer;
   color: black;
@@ -94,7 +89,6 @@ h1{
   align-items: center;
   justify-content:center;
 }
-
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
@@ -119,7 +113,6 @@ h1{
   justify-content: center;
   align-items: center;
 }
-
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1;}
 /* Show the dropdown menu on hover */
@@ -133,8 +126,7 @@ h1{
 .btn__hover:hover{
   background-color: #f1f1f1;
 }
-/*//////////////////////////Content////////////////////////////////////*/
-
+/*//////////////////////////Content/////////////////////////*/
 .content{
   display: flex;
   height: 800px;
@@ -170,9 +162,8 @@ h1{
   padding-left:100px;
 }
 .content__adv p {
-/*   border: 1px solid red; */
-  
-  padding-left:100px;
+/*   border: 1px solid red; */ 
+padding-left:100px;
 }
 .content__adv ul {
   display:grid;
@@ -192,7 +183,6 @@ h1{
   align-items:center;
 
 }
-
 .serchbar{
   display: flex;
   border : 1px solid #ccc;
@@ -202,6 +192,8 @@ h1{
   background-color: white;  
   border-radius: 70px;
   justify-content: space-between;
+  
+ 
 }
 .serchbar__input{
   margin: 0px;
@@ -230,6 +222,7 @@ h1{
   font-family: Papyrus;
   cursor: pointer;
   background-color:#f8edd4;
+  justify-content:end;
 }
 .serchbar__button:hover{
    background-color:#f1f1f1;
@@ -238,7 +231,6 @@ h1{
 /*  border: 1px solid red;   */
  width:50%;
 }
-
 .slides__container {
   max-width: 1000px;
   position: relative;
@@ -299,17 +291,14 @@ h1{
   display: inline-block;
   transition:background-color  0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: #717171;
 }
-
 /* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -317,9 +306,7 @@ h1{
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
 .footer{
-    background-color: #FFEABC;
     height: 300px;
    
 }
