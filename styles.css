@@ -18,9 +18,8 @@ body{
   border-bottom: 5px solid #ccc;;
   justify-content: space-between;
   align-items: center;
-/*   background-color: #f8edd4; */
-  
-}
+  background-color:  #FFEABC;}
+
 .header__front{
   display:flex;
   justify-content: center;
