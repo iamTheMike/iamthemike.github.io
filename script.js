@@ -2,12 +2,11 @@ let slideIndex = 1;
 showSlides(slideIndex);//start
 
 function plusSlides(n) {
-  showSlides(slideIndex += n); //ใช้กับ arrow
+  showSlides(slideIndex += n); 
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n); //ใช้กับ Dot
-}
+  showSlides(slideIndex = n); 
 
 function showSlides(n) {
   let i;
@@ -20,12 +19,12 @@ function showSlides(n) {
   {slideIndex = slides.length;}
   
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  //ลบ รูป display ออก
+    slides[i].style.display = "none"; 
   }
   
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", ""); //ลบ class   active ออก 
+    dots[i].className = dots[i].className.replace(" active", ""); 
   }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active "; //ต้องวรรคไม่งั้น class จะติดกันเป็น class ใหม่
+  dots[slideIndex-1].className += " active "; 
 }
